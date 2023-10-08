@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Application created with the objective of completing the technical test for Fulltime Force with a date of October 2023. This application allows you to view the commit history that a repository has had over time.
+Getting Started
 
-## Getting Started
+    Install Node.js: Go to https://nodejs.org/en to download the latest version of Node.js (skip this step if you already have it installed).
 
-First, run the development server:
+-- From the next step onwards, you need to be in the project folder. Navigate to it and open a new instance of your terminal (CMD/Powershell/Bash).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Install dependencies: Install the dependencies using the command "npm install".
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Build the application: Build the application using the command "npm run build".
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Start the application: Launch the application using the command "npm run start".
+    -- If you encounter the error "Error: listen EADDRINUSE: address already in use :::3000," it means another application is running on port 3000.
+    -- First, close that application, and then use the command "npm run start" again.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Open the application: To open the application, go to http://localhost:3000 in your web browser.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And there you go! 😊 You can now use the application.
+Please keep in mind that the GitHub API has a usage limit per user, so it's normal for it to stop displaying results after some time of use. 🙁
